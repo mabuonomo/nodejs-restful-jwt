@@ -1,0 +1,26 @@
+{
+    "name": "code_arena",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://mario_buonomo@bitbucket.org/mario_buonomo/code_arena.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/mario_buonomo/code_arena#readme",
+    "devDependencies": {
+        "nodemon": "^1.12.7"
+    },
+    "dependencies": {
+        "bcrypt": "^1.0.3",
+        "express": "^4.16.2",
+        "jsonwebtoken": "^8.1.0",
+        "mongoose": "^4.13.7"
+    }
+}
