@@ -8,7 +8,6 @@ A simple restful nodejs server with JWT token authorization
 ## Starting server
 npm start run
 
-## Test with postman
 ## Register
 
 ```
