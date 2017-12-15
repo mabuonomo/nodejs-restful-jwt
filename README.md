@@ -5,6 +5,9 @@ A simple restful nodejs server with JWT token authorization
 * NodeJS
 * Mongo DB
 
+## Starting server
+npm start run
+
 ## Test with postman
 ## Register
 
