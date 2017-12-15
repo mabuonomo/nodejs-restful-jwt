@@ -17,16 +17,17 @@ Body
 fullName, password, email
 
 ## Login
- /auth/sign_in
+/auth/sign_in
 
- Body
- email, password
+Body
+email, password
 
- ## Create task
+## Create task
 
- /tasks
+/tasks
 
- Method: Post
- Body:   name
+Header: Authorization JWT {{your_token}}
+Method: Post
+Body:   name
 
 
