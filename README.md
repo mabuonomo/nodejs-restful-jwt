@@ -11,23 +11,26 @@ npm start run
 ## Test with postman
 ## Register
 
+```
 /auth/register
+```
 
-Body
-fullName, password, email
+* Body: fullName, password, email
 
 ## Login
+```
 /auth/sign_in
+```
 
-Body
-email, password
+* Body: email, password
 
 ## Create task
-
+```
 /tasks
+```
 
-Header: Authorization JWT {{your_token}}
-Method: Post
-Body:   name
+* Header: Authorization JWT {{your_token}}
+* Method: Post
+* Body:   name
 
 
